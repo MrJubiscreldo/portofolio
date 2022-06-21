@@ -1,0 +1,102 @@
+body{
+    text-align: center;
+    background-color: rgb(35, 35, 35);
+}
+
+header{
+    background-color: rgb(35,35,35);
+    max-height: 80px;
+}
+nav{
+    background-image: url(img/nav.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    padding-top: 20vh;
+    padding-bottom: 27vh;
+    max-height: 454px;
+}
+nav h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 72px;
+    background: linear-gradient(to right, rgb(187, 199, 19),rgb(228, 113, 19));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+main{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.o1{
+    background-color: black;
+    border-radius: 10px;
+}
+.filo{
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url(img/DX.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 618px;
+    max-height: 480px;
+    padding-top: 4vh;
+    padding-bottom: 45vh;
+    width: 90%;
+}
+.filo:hover{
+    background-image: url(img/XD.jpg);
+}
+.o{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.exp{
+    color: black;
+    background-color: orange;
+    border-radius: 10px;
+}
+.pixel{
+    float: left;
+    max-width: 200px;
+}
+.row{
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    background-color: rgb(35,35,35);
+    border-radius: 10px;
+
+}
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+.rec{
+    background-color: black;
+    border-radius: 10px;
+}
+.logica{
+    color: black;
+    background-color: orange;
+    border-radius: 10px;
+}
+.cyber{
+    background-color: black;
+    border-radius: 10px;
+}
+.cyber img{
+    width: 100%;
+    max-width: 480px;
+}
+
+.thicc{
+    font-weight: bold;
+}
+.big{
+    font-size: 22px;
+}
